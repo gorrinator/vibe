@@ -1,1 +1,82 @@
-Nothing to output - the modified file 'readme.md' is a source/config file and no build artifacts, dependencies, or temp files were detected in the changes.
+```powershell
+# PowerShell specific
+*.psd1
+*.psm1
+*.pssc
+*.psrc
+*.clixml
+*.psc1
+*.ps1xml
+*.cdxml
+*.mof
+*.inf
+*.reg
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+
+# Build outputs
+dist/
+build/
+target/
+out/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Compression artifacts
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+```
